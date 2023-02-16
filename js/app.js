@@ -33,7 +33,7 @@ document.getElementById("last-card").addEventListener("click", function (e) {
    
    
    `;
-    tableId.prepend(tr);
+    tableId.append(tr);
     // get the total price id and set grand total prices
     grandPrice += total;
 
@@ -67,7 +67,7 @@ for (const button of buttonList) {
                 
    `;
 
-    tableId.prepend(tr);
+    tableId.append(tr);
     // get the grand total prices
     grandPrice += total;
 
